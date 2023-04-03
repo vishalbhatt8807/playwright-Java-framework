@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.732 s <<< FAILURE! - in TestSuite
+login(Tests.loginPage)  Time elapsed: 71.233 s  <<< FAILURE!
+com.microsoft.playwright.TimeoutError: Timeout 30000ms exceeded
+	at Tests.loginPage.login(loginPage.java:25)
+

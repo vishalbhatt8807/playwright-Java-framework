@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ViSHAL BHATT/Desktop/Playwright_Demo">
+        <parameter name="browserType" value="Chromium"/>
+        <parameter name="head" value="false"/>
+    <classes>
+        <class name="Tests.loginPage">
+            <methods><include name="login"/>
+        </methods>
+        </class>
+    </classes>
+</test>
+</suite>
